@@ -5,3 +5,19 @@
 }
 
 /* Start coding here */
+:root {
+   --secondary-color: cornsilk;
+   --level5-padding : 20px ;
+   --branding-color : #ff7f50;
+   --TripleExtraLarge-font : 100px;
+}
+.introduction{
+    background-color: var(--secondary-color);
+    padding: var(--level5-padding);
+
+}
+
+.introduction h1{
+    font-size: var(--TripleExtraLarge-font);
+    color: var(--branding-color);
+}
